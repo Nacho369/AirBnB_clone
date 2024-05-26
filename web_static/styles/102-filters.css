@@ -98,3 +98,23 @@
 .filters .amenities:hover .popover {
     visibility: visible;
 }
+
+
+@media screen and (max-width: 479px) {
+    .filters button {
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    .filters .locations {
+        padding-left: 10px;
+    }
+
+    .filters .amenities {
+        padding-left: 10px;
+    }
+
+    .filters .popover {
+        width: 50vw;
+    }
+}
