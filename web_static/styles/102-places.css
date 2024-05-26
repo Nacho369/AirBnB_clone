@@ -40,10 +40,15 @@
     /* padding: 5px; */
     font-size: 30px;
     text-align: center;
-    align-content: center;
+    display: flex;
     justify-content: center;
+    align-items: center;
     position: absolute;
     right: 15px;
+}
+
+.places .places_articles article .pa_head .price_by_night p {
+    margin: 0px;
 }
 
 .places .information {
@@ -193,10 +198,7 @@
         min-width: 45px;
         height: 45px;
         font-size: 18px;
-        text-align: center;
-        align-content: center;
-        right: 15px;
-        bottom: 0px;
+        right: 10px;
     }
 
     .places .information {
